@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 32px 16px;
+}
+
+.header {
+  background: #111;
+  color: white;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links a {
+  color: white;
+  margin-left: 16px;
+  text-decoration: none;
+}
+
+.hero {
+  background: #f4f4f4;
+}
+
+.hero-flex {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+
+.hero-text h2 {
+  font-size: 32px;
+  margin-bottom: 16px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 9.6px 19.2px;
+  background: #111;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.small {
+  margin-top: 8px;
+}
+
+.course-flex {
+  display: flex;
+  gap: 24px;
+}
+
+.course-card {
+  border: 1px solid #ddd;
+  padding: 16px;
+  width: 100%;
+}
+
+.course-img {
+  height: 150px;
+  background: #ddd;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.why-flex {
+  display: flex;
+  gap: 32px;
+}
+
+.why-text ul {
+  list-style: none;
+  margin-top: 16px;
+}
+
+.why-text li {
+  margin-bottom: 8px;
+}
+
+.form {
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.form input,
+.form select {
+  margin-bottom: 16px;
+  padding: 8px;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.footer {
+  background: #111;
+  color: white;
+}
+
+.footer-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  margin-top: 6.4px;
+}
+
+
